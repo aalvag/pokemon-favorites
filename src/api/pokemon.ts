@@ -1,7 +1,7 @@
 import { API_CONSTANTS } from '@/constants/api'
 import type { PokemonBasic, PokemonDetailed } from '@/types/pokemon'
 
-export async function getPokemonList(limit: number = 100): Promise<PokemonBasic[]> {
+export async function getPokemonList(limit: number = 1302): Promise<PokemonBasic[]> {
   try {
     const response = await fetch(`${API_CONSTANTS.API_BASE_URL}/pokemon?limit=${limit}`)
     if (!response.ok) {
