@@ -87,7 +87,7 @@ const goBackHome = () => {
             </ul>
             <div v-else class="text-center">
               <p class="mb-4 text-4xl font-bold">Uh-oh!</p>
-              <p class="mb-4 text-xl font-medium" > You lost on your journey</p>
+              <p class="mb-4 text-xl font-medium" > You lost on your journey!</p>
               <CustomButton text="Go back home" @click="goBackHome"/>
             </div>
           </div>
