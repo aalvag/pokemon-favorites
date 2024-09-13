@@ -93,7 +93,7 @@ const goBackHome = () => {
           </div>
         </div>
       </div>
-      <div v-if="filteredPokemons.length > 0" class="fixed bottom-0 left-0 w-full bg-white shadow-lg">
+      <div v-if="filteredPokemons.length > 0" class="fixed bottom-0 left-0 w-full bg-white shadow-2xl ">
         <div class="max-w-[570px] sm:max-w-[315px] md:max-w-[570px] mx-auto p-4">
           <div class="flex space-x-2">
             <CustomButton text="All" :icon="MenuListIcon" :isActive="!showFavorites" @click="toggleView(false)" :fullWidth="true" />
