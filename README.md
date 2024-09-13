@@ -34,7 +34,7 @@ Para configurar este proyecto localmente, sigue los siguientes pasos:
 
 1. Clona el repositorio:
     ```bash
-    git clone https://github.com/tu-usuario/pokemon-favorites.git
+    git clone https://github.com/aalvag/pokemon-favorites.git
     cd pokemon-favorites
     ```
 
